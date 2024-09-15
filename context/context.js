@@ -1,6 +1,6 @@
 import FundingJSON from './Fundraiser.json';
 
 
-export const FundingAddress="0x33cd6aDdCF0a56e779fC8c4252EF4A8483dF0584";
+export const FundingAddress="0x0d44F4E6d2de8B4AA2346caFDD9F004603e4C8a4";
 export const FundingABI=FundingJSON.abi;
 

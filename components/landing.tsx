@@ -1,8 +1,8 @@
 "use client";
 import { useContext, useState } from "react";
-import { NetrunnerContext } from "../context/netrunner"; // Update the path to NetrunnerContext accordingly
+import { NetrunnerContext } from "../context/netrunner"; 
 
-const TestPage = () => {
+const LandingPage = () => {
   const {
     registerDonor,
     donate,
@@ -66,13 +66,13 @@ const TestPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center p-6">
-      <h1 className="text-5xl font-bold mb-6 animate-bounce">
+    <div className="min-h-screen  text-white flex flex-col mx-[10vw] p-6">
+      <h1 className="text-7xl justify-self-center mx-[20vw] font-bold mb-6">
       Flood Relief Fund Management System
       </h1>
 
       
-      <div className="mb-6">
+      <div className="mb-6 mx-[20vw]">
         <h2 className="text-xl mb-2">Connect Wallet</h2>
         <button
           className="px-4 py-2 bg-blue-600 rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400 transition ease-in-out"
@@ -83,7 +83,7 @@ const TestPage = () => {
       </div>
 
     
-      <div className="mb-6">
+      <div className="mb-6 mx-[20vw]">
         <h2 className="text-xl mb-2">Register Donor</h2>
         <input
           className="block p-2 mb-2 w-full bg-gray-800 rounded"
@@ -108,7 +108,7 @@ const TestPage = () => {
       </div>
 
      
-      <div className="mb-6">
+      <div className="mb-6 mx-[20vw]">
         <h2 className="text-xl mb-2">Donate</h2>
         <input
           className="block p-2 mb-2 w-full bg-gray-800 rounded"
@@ -139,7 +139,7 @@ const TestPage = () => {
         </button>
       </div>
 
-      <div className="mb-6">
+      <div className="mb-6 mx-[20vw]">
         <h2 className="text-xl mb-2">Get Donor Information</h2>
         <input
           className="block p-2 mb-2 w-full bg-gray-800 rounded"
@@ -157,7 +157,7 @@ const TestPage = () => {
       </div>
 
       
-      <div className="mb-6">
+      <div className="mb-6 mx-[20vw]">
         <h2 className="text-xl mb-2">Get Donation Amounts</h2>
 
         {/* Individual Buttons for Each Donation Amount */}
@@ -200,4 +200,4 @@ const TestPage = () => {
   );
 };
 
-export default TestPage;
+export default LandingPage;

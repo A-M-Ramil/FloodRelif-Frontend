@@ -3,7 +3,7 @@ import Landing from "../components/landing";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-gray-900">
       <Landing />
     </main>
   );
